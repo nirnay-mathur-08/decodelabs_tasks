@@ -1,6 +1,6 @@
-import cv2
-import pytesseract
-import numpy as np
+import cv2 # type: ignore
+import pytesseract # type: ignore
+import numpy as np # type: ignore
 
 # Double-check that this explicit mapping matches your installation location!
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
